@@ -1,0 +1,15 @@
+The prediction of wave parameters is essential for a wide range of marine and coastal activities, including navigation, 
+offshore operations, fishing, tourism, and civil protection. Moreover, anticipating extreme events is crucial to mitigate 
+potential impacts on coastal populations and infrastructure. Traditionally, wave prediction has relied on empirical and 
+numerical models based on physical equations. However, these approaches present limitations in terms of accuracy and 
+computational efficiency, especially in regions with complex orography.
+
+In recent years, machine learning techniques have emerged as promising alternatives for wave prediction, offering greater 
+flexibility in handling nonlinear and high-dimensional data. This study assesses the capability of Convolutional Neural Networks 
+(CNNs) to predict significant wave height, peak period, and mean wave direction from wind fields.
+
+The proposed methodology involves training and evaluating different CNN architectures using sequences of wind maps as input. 
+The results show that CNNs can capture relevant spatiotemporal patterns and provide reasonably accurate predictions, particularly 
+for significant wave height and wave direction. The prediction of peak period is more challenging and benefits from a broader temporal 
+context. Overall, these findings confirm the feasibility of using CNNs for wave prediction in the Canary Islands region and highlight 
+their potential as complementary tools to traditional physical models.
